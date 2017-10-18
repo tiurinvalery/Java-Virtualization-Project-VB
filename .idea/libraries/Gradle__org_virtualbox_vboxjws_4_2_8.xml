@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.virtualbox:vboxjws:4.2.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.virtualbox/vboxjws/4.2.8/e65da08794f9de5368408f5805f2c1fd1e5e73a0/vboxjws-4.2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.virtualbox/vboxjws/4.2.8/c6dcdeaca1ddb093aee48d49b739a814ba10c5db/vboxjws-4.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
