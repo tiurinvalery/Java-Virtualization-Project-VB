@@ -1,24 +1,24 @@
 import java.util.Arrays;
 import java.util.List;
-import org.virtualbox_4_2.CleanupMode;
-import org.virtualbox_4_2.IEvent;
-import org.virtualbox_4_2.IEventListener;
-import org.virtualbox_4_2.IMachine;
-import org.virtualbox_4_2.IMachineRegisteredEvent;
-import org.virtualbox_4_2.IMachineStateChangedEvent;
-import org.virtualbox_4_2.IProgress;
-import org.virtualbox_4_2.ISession;
-import org.virtualbox_4_2.ISessionStateChangedEvent;
-import org.virtualbox_4_2.SessionState;
-import org.virtualbox_4_2.VBoxEventType;
-import org.virtualbox_4_2.VirtualBoxManager;
+import org.virtualbox_5_1.CleanupMode;
+import org.virtualbox_5_1.IEvent;
+import org.virtualbox_5_1.IEventListener;
+import org.virtualbox_5_1.IMachine;
+import org.virtualbox_5_1.IMachineRegisteredEvent;
+import org.virtualbox_5_1.IMachineStateChangedEvent;
+import org.virtualbox_5_1.IProgress;
+import org.virtualbox_5_1.ISession;
+import org.virtualbox_5_1.ISessionStateChangedEvent;
+import org.virtualbox_5_1.SessionState;
+import org.virtualbox_5_1.VBoxEventType;
+import org.virtualbox_5_1.VirtualBoxManager;
 
 public class Events_4_2 {
     static VirtualBoxManager mgr;
     static Thread listener;
     final static String url = "http://localhost:18083";
   //  final static String vmName = Long.toString(System.currentTimeMillis()); // get a random VM name to use later
-    final static String vmName="linux";
+    final static String vmName="test";
     public static void main(String args []){
         User valera = User.createUser("linux","55555");
         User.AddUser(valera);
@@ -98,7 +98,7 @@ public class Events_4_2 {
         }
         public static void deleteMachine(IMachine vm){
             System.out.println("Deleting machine");
-            vm.delete(vm.unregister(CleanupMode.DetachAllReturnHardDisksOnly));
+            vm.deleteConfig(vm.unregister(CleanupMode.DetachAllReturnHardDisksOnly));
         }
 
 

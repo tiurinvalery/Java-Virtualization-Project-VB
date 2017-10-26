@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jar5_1/jar5_1.iml" filepath="$PROJECT_DIR$/jar5_1/jar5_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/useVBAPI.project.iml" filepath="$PROJECT_DIR$/.idea/modules/useVBAPI.project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/useVBAPI.project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/useVBAPI.project_main.iml" group="useVBAPI.project" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/useVBAPI.project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/useVBAPI.project_test.iml" group="useVBAPI.project" />
